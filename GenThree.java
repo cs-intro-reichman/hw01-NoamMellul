@@ -4,7 +4,7 @@
  */
 import java.util.Random;
 
-public class Gen3 {
+public class GenThree {
 	public static void main(String[] args) {
 		// The range
 		int firstNumber = Integer.parseInt(args[0]);
@@ -28,7 +28,7 @@ public class Gen3 {
 
 		// Find and print the minimal number
 		int minimalNumber = Math.min(Math.min(randomNumber1, randomNumber2), randomNumber3);
-		System.out.println("Minimal Number: " + minimalNumber);
+		System.out.println("The minimal generated number was " + minimalNumber);
 	}
 }
 

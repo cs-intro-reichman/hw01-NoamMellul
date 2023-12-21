@@ -11,10 +11,10 @@ public class Triangle {
 		int c = Integer.parseInt(args[2]); // the remaining side
 
 		if ( (a + b) > c) { // we check if the sum of the side a and b is greater than the side c
-			System.out.println(a + ", " + b + ", " + c + " : true"); // when it's correct we get a triangle
+			System.out.println(a + ", " + b + ", " + c + ": true"); // when it's correct we get a triangle
 		}
 		else { // we check the other possibility, when the sum of a and b are lower than c
-			System.out.println(a + ", " + b + ", " + c + " : false"); // we don't get a triangle
+			System.out.println(a + ", " + b + ", " + c + ": false"); // we don't get a triangle
 		}
 	}
 }

@@ -8,7 +8,7 @@ public class Coins {
 		int a = Integer.parseInt(args[0]);
 		int numberOfCent = a % 25; // we use the technique of modulo in order to have the rest of the division
 		int numberOfQuarter = a / 25; // we do a simple division to find how many quarter we have
-		System.out.println("We have" + " " + numberOfQuarter + " " + "quarter and"+ " "+ numberOfCent + " " + "cent");
+		System.out.println("Use" + " " + numberOfQuarter + " " + "quarters and"+ " "+ numberOfCent + " " + "cents");
 
 	}
 }
