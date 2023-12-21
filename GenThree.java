@@ -22,9 +22,9 @@ public class GenThree {
 		int randomNumber3 = new Random().nextInt(secondNumber - firstNumber) + firstNumber;
 
 		// Print the generated numbers
-		System.out.println("Number 1: " + randomNumber1);
-		System.out.println("Number 2: " + randomNumber2);
-		System.out.println("Number 3: " + randomNumber3);
+		System.out.println(randomNumber1);
+		System.out.println(randomNumber2);
+		System.out.println(randomNumber3);
 
 		// Find and print the minimal number
 		int minimalNumber = Math.min(Math.min(randomNumber1, randomNumber2), randomNumber3);
